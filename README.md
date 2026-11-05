@@ -1,22 +1,12 @@
-\# 📱 CampusPulse - Android Application (Final POE)
+\# CampusPulse 📱
 
 
 
-\## 📌 Overview
-
-\*\*CampusPulse\*\* is a feature-rich, high-performance Android mobile application built with Kotlin, designed to streamline student life, campus engagement, and community event tracking. This repository contains the complete source code for the final POE submission.
+\[!\[Android CI/CD](https://github.com/DugStellar/OPSC6312-PART3-FINAL-POE-CampusPulse/actions/workflows/android.yml/badge.svg)](https://github.com/DugStellar/OPSC6312-PART3-FINAL-POE-CampusPulse/actions)
 
 
 
-\---
-
-
-
-\## 🎥 Demonstration Video
-
-Watch the full application walkthrough and feature demonstration here:
-
-\* \*\*\[Link to Unlisted YouTube Demonstration Video](#)\*\* \*(Insert your unlisted YouTube link here)\*
+CampusPulse is a modern, native Android application built using Kotlin and Material Design 3. It serves as a central platform for students to browse campus events, manage tickets, and stay updated with real-time notifications, featuring full offline data synchronization and dynamic multi-language localization.
 
 
 
@@ -24,21 +14,9 @@ Watch the full application walkthrough and feature demonstration here:
 
 
 
-\## ✨ Key Features Implemented
+\## 📹 Video Presentation
 
-\* \*\*Secure Authentication\*\*: User registration and login featuring robust password hashing and encryption.
-
-\* \*\*Single Sign-On (SSO)\*\*: Integrated third-party authentication flow for seamless user access.
-
-\* \*\*REST API \& Cloud Database\*\*: Connected to a remote hosted backend database for real-time data persistence.
-
-\* \*\*Offline Mode with Sync\*\*: Local SQLite / RoomDB data caching allowing offline usage with automatic synchronization upon reconnection.
-
-\* \*\*Real-time Push Notifications\*\*: Instant alert and update system powered by Firebase Cloud Messaging.
-
-\* \*\*Multi-Language Support\*\*: Fully localized user interface supporting multiple South African languages (English and Afrikaans).
-
-\* \*\*Custom App Assets\*\*: Tailored app launcher icons, custom themes, and polished UI design layouts.
+\- \*\*YouTube Walkthrough Link\*\*: https://youtube.com/shorts/DSVFj19mFP8
 
 
 
@@ -46,29 +24,19 @@ Watch the full application walkthrough and feature demonstration here:
 
 
 
-\## 🚀 Release Notes (Updates Since Prototype)
+\## ✨ Key Features
 
-\* \*\*v3.0.0 (Final POE)\*\*: 
+\- \*\*Secure Authentication\*\*: User registration and login utilizing SHA-256 client-side password hashing.
 
-&#x20; \* Added complete Single Sign-On (SSO) authentication module.
+\- \*\*REST API Integration\*\*: Real-time event and ticket data fetching via Retrofit and OKHttp interceptors.
 
-&#x20; \* Integrated RoomDB local caching layer to support full offline mode capabilities with auto-sync.
+\- \*\*Offline Caching \& Persistence\*\*: Persistent local storage powered by Room Database.
 
-&#x20; \* Implemented Firebase Cloud Messaging for real-time notifications.
+\- \*\*Background Synchronization\*\*: Background sync handled by Android WorkManager when connectivity restores.
 
-&#x20; \* Expanded language localization resources to include Afrikaans alongside English.
+\- \*\*Dynamic Localization\*\*: Real-time language switching between \*\*English\*\* and \*\*Afrikaans\*\* without restarting the application.
 
-&#x20; \* Configured automated CI/CD build pipelines using GitHub Actions.
-
-\* \*\*v2.0.0\*\*: 
-
-&#x20; \* Integrated remote REST API endpoints and database context.
-
-&#x20; \* Added user settings management and encrypted credential storage.
-
-\* \*\*v1.0.0\*\*: 
-
-&#x20; \* Initial prototype release with core UI layouts and local navigation.
+\- \*\*Material Design 3 Theme\*\*: Dynamic Dark and Light mode toggling in app settings.
 
 
 
@@ -76,15 +44,19 @@ Watch the full application walkthrough and feature demonstration here:
 
 
 
-\## 🤖 AI Tools Usage and Citation
+\## 🛠️ Architecture \& Tech Stack
 
-During the development of CampusPulse, AI tools (such as Gemini) were utilized as a collaborative technical assistant under the following scope:
+\- \*\*Language\*\*: Kotlin
 
-\* \*\*Code Snippet Generation\*\*: Assisted in drafting structural boilerplate for RoomDB entities and Retrofit API client configuration.
+\- \*\*UI Framework\*\*: Material Design 3 / Jetpack Components
 
-\* \*\*Debugging \& Log Analysis\*\*: Used for resolving build gradle discrepancies, Kotlin coroutine threading exceptions, and layout constraint errors.
+\- \*\*Local Database\*\*: Room (SQLite)
 
-\* \*\*Documentation \& Structuring\*\*: Guided the formatting of release notes and technical README documentation.
+\- \*\*Networking\*\*: Retrofit 2 + Gson Converter
+
+\- \*\*Background Tasks\*\*: WorkManager
+
+\- \*\*Build Tool\*\*: Gradle (Kotlin DSL)
 
 
 
@@ -92,7 +64,25 @@ During the development of CampusPulse, AI tools (such as Gemini) were utilized a
 
 
 
-\## 🛠️ Automated Testing \& CI/CD
+\## 🚀 Getting Started \& Build Instructions
 
-Automated builds and tests are configured using \*\*GitHub Actions\*\*. Every push to the repository triggers continuous integration checks to validate build integrity and ensure code stability across environments.
+
+
+\### Prerequisites
+
+\- Android Studio Ladybug or newer
+
+\- JDK 17
+
+\- Android SDK 34 (Android 14)
+
+
+
+\### Building from Source
+
+1\. Clone the repository:
+
+&#x20;  ```bash
+
+&#x20;  git clone \[https://github.com/DugStellar/OPSC6312-PART3-FINAL-POE-CampusPulse.git](https://github.com/DugStellar/OPSC6312-PART3-FINAL-POE-CampusPulse.git)
 
