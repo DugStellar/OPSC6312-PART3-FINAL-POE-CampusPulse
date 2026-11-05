@@ -13,7 +13,7 @@ CampusPulse is a modern, native Android application built using Kotlin and Mater
 \---
 ## 📱 App Screenshots
 
-| Login / Home | Event List | Afrikaans Toggle | Ticket Management (Online) | Ticket Management (Offline) |
+| Login / Home | Event List | Afrikaans Toggle | Ticket Management (Offline) | Ticket Management (Online) |
 | :---: | :---: | :---: | :---: | :---: |
 | <img src="screenshots/IMG_1682.jpg" width="180"> | <img src="screenshots/IMG_1683.jpg" width="180"> | <img src="screenshots/IMG_1684.jpg" width="180"> | <img src="screenshots/IMG_1685.jpg" width="180"> | <img src="screenshots/IMG_1686.jpg" width="180"> |
 
