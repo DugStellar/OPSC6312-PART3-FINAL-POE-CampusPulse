@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">CampusPulse</string>
+    <string name="title_events">Gebeurtenisse</string>
+    <string name="title_tickets">My Kaartjies</string>
+    <string name="title_settings">Instellings</string>
+
+    <!-- Auth Strings -->
+    <string name="login_title">Welkom Terug</string>
+    <string name="login_subtitle">Teken in om toegang tot kampusgebeurtenisse en kaartjies te kry</string>
+    <string name="email_hint">Studente E-pos</string>
+    <string name="password_hint">Wagwoord</string>
+    <string name="btn_login">Teken in</string>
+    <string name="btn_sso_google">Teken in met Google SSO</string>
+    <string name="register_prompt">Het jy nie \'n rekening nie? Registreer hier</string>
+    <string name="register_title">Skep Rekening</string>
+    <string name="register_subtitle">Registreer jou CampusPulse studente profiel</string>
+    <string name="full_name_hint">Volle Naam</string>
+    <string name="province_hint">Kampus Provinsie</string>
+    <string name="btn_register">Registreer Rekening</string>
+    <string name="login_prompt">Het jy reeds \'n rekening? Teken hier in</string>
+
+    <!-- Status & Indicators -->
+    <string name="status_online">Aanlyn Modus</string>
+    <string name="status_offline">Offlyn Modus</string>
+    <string name="status_syncing">Data word gesinkroniseer…</string>
+    <string name="status_synced">Gesinkroniseer</string>
+    <string name="status_pending">Hangende Sinkronisering</string>
+
+    <!-- Event & Details -->
+    <string name="venue">Plek</string>
+    <string name="date">Datum</string>
+    <string name="category">Kategorie</string>
+    <string name="description">Beskrywing</string>
+    <string name="btn_rsvp">Bespreek Nou</string>
+    <string name="btn_rsvp_done">Bespreking Bevestig</string>
+    <string name="rsvp_success">Bespreking Bevestig! Kaartjie geskep.</string>
+    <string name="rsvp_offline">Bespreking Offlyn Gestoor. Sal sinkroniseer sodra herkoppel.</string>
+    <string name="campus_life">Kampuslewe</string>
+
+    <!-- Ticket Interaction -->
+    <string name="ticket_details_title">Kaartjie Besonderhede</string>
+    <string name="qr_code_label">QR Pas-kode: %1$s</string>
+    <string name="close">Sluit</string>
+
+    <!-- Settings & Profile -->
+    <string name="settings_profile">Profiel &amp; Rekening</string>
+    <string name="settings_preferences">Voorkeure &amp; Kennisgewings</string>
+    <string name="toggle_notifications">Gebeurteniswaarskuwings &amp; Drukkennisgewings</string>
+    <string name="toggle_dark_mode">Donker Tema</string>
+    <string name="label_language">App Taal</string>
+    <string name="lang_en">Engels</string>
+    <string name="lang_af">Afrikaans</string>
+    <string name="btn_save_settings">Stoor Profiel-instellings</string>
+    <string name="btn_sync_now">Sinkroniseer Offlyn Wagtrou Nou</string>
+    <string name="btn_logout">Ontkoppel</string>
+    <string name="logged_in_as">Ingateken as:</string>
+    <string name="btn_upload_photo">Verander Profielfoto</string>
+    <string name="photo_updated">Profielfoto opgedateer!</string>
+
+    <!-- Lists & States -->
+    <string name="empty_events">Geen kampusgebeurtenisse beskikbaar nie. Kyk gou weer!</string>
+    <string name="empty_tickets">Jy het nog nie vir enige kampusgebeurtenisse bespreek nie.</string>
+    <string name="confirmed_tickets">My Bevestigde Kaartjies</string>
+    <string name="ticket_id_prefix">Kaartjie ID: %1$s</string>
+    <string name="event_id_prefix">Gebeurtenis ID: %1$s</string>
+    <string name="sync_status_prefix">Status: %1$s</string>
+
+    <!-- Notifications & Toast Messages -->
+    <string name="validation_email">Voer asseblief \'n geldige studente e-posadres in</string>
+    <string name="validation_password">Wagwoord moet minstens 6 karakters wees</string>
+    <string name="validation_fields">Vul asseblief alle vereiste velde in</string>
+    <string name="sso_success">Google SSO Stawing Suksesvol!</string>
+    <string name="sso_account_chooser_title">Kies Google SSO-rekening</string>
+    <string name="add_another_account">Gebruik \'n ander rekening</string>
+    <string name="settings_saved">Instellings suksesvol opgedateer!</string>
+    <string name="sync_completed">Offlyn data suksesvol gesinkroniseer!</string>
+    <string name="push_notif_title">CampusPulse Waarskuwing</string>
+    <string name="push_notif_channel">Kampus Gebeurteniswaarskuwings</string>
+</resources>

@@ -4,7 +4,6 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -35,28 +34,33 @@ class TicketsFragment : Fragment() {
         loadTickets()
     }
 
+    override fun onResume() {
+        super.onResume()
+        loadTickets()
+    }
+
     private fun loadTickets() {
         val pref = PreferenceManager(requireContext())
-        val userId = pref.getUserId() ?: "1"
+        val userId = pref.getUserId() ?: "usr_default"
         val db = CampusPulseDatabase.getDatabase(requireContext())
 
-        val tvEmptyTickets = binding.root.findViewById<TextView>(
-            resources.getIdentifier("tvEmptyTickets", "id", requireContext().packageName)
-        ) ?: binding.root.findViewById<TextView>(
-            resources.getIdentifier("tvEmptyState", "id", requireContext().packageName)
-        )
-
         lifecycleScope.launch {
-            val tickets = db.ticketDao().getTicketsForUser(userId)
-            val allTickets = if (tickets.isEmpty()) db.ticketDao().getAllTickets() else tickets
+            try {
+                val userTickets = db.ticketDao().getTicketsForUser(userId)
+                val allTickets = if (userTickets.isNotEmpty()) userTickets else db.ticketDao().getAllTickets()
 
-            if (allTickets.isNotEmpty()) {
-                adapter.updateTickets(allTickets)
-                binding.rvTickets.visibility = View.VISIBLE
-                tvEmptyTickets?.visibility = View.GONE
-            } else {
+                if (allTickets.isNotEmpty()) {
+                    adapter.updateTickets(allTickets)
+                    binding.rvTickets.visibility = View.VISIBLE
+                    binding.tvEmptyState.visibility = View.GONE
+                } else {
+                    binding.rvTickets.visibility = View.GONE
+                    binding.tvEmptyState.visibility = View.VISIBLE
+                }
+            } catch (e: Exception) {
+                e.printStackTrace()
                 binding.rvTickets.visibility = View.GONE
-                tvEmptyTickets?.visibility = View.VISIBLE
+                binding.tvEmptyState.visibility = View.VISIBLE
             }
         }
     }

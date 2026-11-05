@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Primary Palette (Indigo & Sky Blue) -->
+    <color name="primary">#4F46E5</color>
+    <color name="primary_dark">#3730A3</color>
+    <color name="primary_container">#E0E7FF</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_primary_container">#1E1B4B</color>
+
+    <!-- Accent Palette -->
+    <color name="accent_sky_blue">#0EA5E9</color>
+    <color name="accent_container">#E0F2FE</color>
+    <color name="on_accent_container">#0369A1</color>
+
+    <!-- Surface & Backgrounds -->
+    <color name="surface_bg">#F8FAFC</color>
+    <color name="surface_card">#FFFFFF</color>
+    <color name="surface_variant">#F1F5F9</color>
+    <color name="on_surface">#0F172A</color>
+    <color name="on_surface_variant">#475569</color>
+    <color name="card_stroke">#E2E8F0</color>
+
+    <!-- Status Indicators -->
+    <color name="status_online">#10B981</color>
+    <color name="status_offline">#F59E0B</color>
+    <color name="error_red">#EF4444</color>
+
+    <!-- Standard Colors -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
 </resources>

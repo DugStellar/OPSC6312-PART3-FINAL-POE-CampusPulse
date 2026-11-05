@@ -3,4 +3,77 @@
     <string name="title_events">Events</string>
     <string name="title_tickets">My Tickets</string>
     <string name="title_settings">Settings</string>
+
+    <!-- Auth Strings -->
+    <string name="login_title">Welcome Back</string>
+    <string name="login_subtitle">Sign in to access campus events &amp; tickets</string>
+    <string name="email_hint">Student Email</string>
+    <string name="password_hint">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_sso_google">Sign in with Google SSO</string>
+    <string name="register_prompt">Don\'t have an account? Register here</string>
+    <string name="register_title">Create Account</string>
+    <string name="register_subtitle">Register your CampusPulse student profile</string>
+    <string name="full_name_hint">Full Name</string>
+    <string name="province_hint">Campus Province</string>
+    <string name="btn_register">Register Account</string>
+    <string name="login_prompt">Already have an account? Login here</string>
+
+    <!-- Status & Indicators -->
+    <string name="status_online">Online Mode</string>
+    <string name="status_offline">Offline Mode</string>
+    <string name="status_syncing">Syncing Data…</string>
+    <string name="status_synced">Synced</string>
+    <string name="status_pending">Pending Sync</string>
+
+    <!-- Event & Details -->
+    <string name="venue">Venue</string>
+    <string name="date">Date</string>
+    <string name="category">Category</string>
+    <string name="description">Description</string>
+    <string name="btn_rsvp">RSVP Now</string>
+    <string name="btn_rsvp_done">RSVP Confirmed</string>
+    <string name="rsvp_success">RSVP Confirmed! Ticket generated.</string>
+    <string name="rsvp_offline">RSVP Saved Offline. Will sync when reconnected.</string>
+    <string name="campus_life">Campus Life</string>
+
+    <!-- Ticket Interaction -->
+    <string name="ticket_details_title">Ticket Details</string>
+    <string name="qr_code_label">QR Pass Code: %1$s</string>
+    <string name="close">Close</string>
+
+    <!-- Settings & Profile -->
+    <string name="settings_profile">Profile &amp; Account</string>
+    <string name="settings_preferences">Preferences &amp; Notifications</string>
+    <string name="toggle_notifications">Event Alerts &amp; Push Notifications</string>
+    <string name="toggle_dark_mode">Dark Theme</string>
+    <string name="label_language">App Language</string>
+    <string name="lang_en">English</string>
+    <string name="lang_af">Afrikaans</string>
+    <string name="btn_save_settings">Save Profile Settings</string>
+    <string name="btn_sync_now">Sync Offline Queue Now</string>
+    <string name="btn_logout">Logout</string>
+    <string name="logged_in_as">Logged in as:</string>
+    <string name="btn_upload_photo">Change Profile Photo</string>
+    <string name="photo_updated">Profile photo updated!</string>
+
+    <!-- Lists & States -->
+    <string name="empty_events">No campus events available right now. Check back soon!</string>
+    <string name="empty_tickets">You haven\'t RSVP\'d to any campus events yet.</string>
+    <string name="confirmed_tickets">My Confirmed Tickets</string>
+    <string name="ticket_id_prefix">Ticket ID: %1$s</string>
+    <string name="event_id_prefix">Event ID: %1$s</string>
+    <string name="sync_status_prefix">Status: %1$s</string>
+
+    <!-- Notifications & Toast Messages -->
+    <string name="validation_email">Please enter a valid student email address</string>
+    <string name="validation_password">Password must be at least 6 characters</string>
+    <string name="validation_fields">Please complete all required fields</string>
+    <string name="sso_success">Google SSO Authentication Successful!</string>
+    <string name="sso_account_chooser_title">Select Google SSO Account</string>
+    <string name="add_another_account">Use another account</string>
+    <string name="settings_saved">Settings updated successfully!</string>
+    <string name="sync_completed">Offline data synced successfully!</string>
+    <string name="push_notif_title">CampusPulse Alert</string>
+    <string name="push_notif_channel">Campus Event Alerts</string>
 </resources>

@@ -3,13 +3,13 @@
     <item
         android:id="@+id/navigation_events"
         android:icon="@android:drawable/ic_menu_today"
-        android:title="Events" />
+        android:title="@string/title_events" />
     <item
         android:id="@+id/navigation_tickets"
         android:icon="@android:drawable/ic_menu_agenda"
-        android:title="Tickets" />
+        android:title="@string/title_tickets" />
     <item
         android:id="@+id/navigation_settings"
         android:icon="@android:drawable/ic_menu_manage"
-        android:title="Settings" />
+        android:title="@string/title_settings" />
 </menu>

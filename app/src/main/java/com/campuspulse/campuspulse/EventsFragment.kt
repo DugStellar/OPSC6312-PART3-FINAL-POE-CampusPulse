@@ -43,19 +43,29 @@ class EventsFragment : Fragment() {
                             id = "1",
                             title = "Campus Tech Hackathon 2026",
                             description = "Join top student developers for a 24-hour hackathon focused on mobile & web solutions.",
+                            venue = "Computer Science Lab A",
                             date = "Oct 15, 2026"
                         ),
                         Event(
                             id = "2",
                             title = "Spring Society Marketplace",
                             description = "Discover campus clubs, join student organizations, and collect free merchandise.",
+                            venue = "Student Union Plaza",
                             date = "Oct 20, 2026"
                         ),
                         Event(
                             id = "3",
                             title = "AI & Software Career Expo",
                             description = "Meet industry recruiters and software firms hiring third-year graduates.",
+                            venue = "Great Hall Auditorium",
                             date = "Nov 02, 2026"
+                        ),
+                        Event(
+                            id = "4",
+                            title = "Campus Music & Culture Night",
+                            description = "Annual live concert featuring student bands and performing arts.",
+                            venue = "Amphitheatre",
+                            date = "Nov 18, 2026"
                         )
                     )
                     db.eventDao().insertEvents(sampleEvents)
@@ -90,7 +100,9 @@ class EventsFragment : Fragment() {
                             putExtra("EVENT_ID", event.id)
                             putExtra("EVENT_TITLE", event.title)
                             putExtra("EVENT_DESC", event.description)
-                            putExtra("EVENT_DATE", event.date)
+                            putExtra("EVENT_DATE", event.getDisplayDate())
+                            putExtra("EVENT_LOCATION", event.getDisplayVenue())
+                            putExtra("EVENT_IMAGE_URL", event.imageUrl)
                         }
                         startActivity(intent)
                     }
