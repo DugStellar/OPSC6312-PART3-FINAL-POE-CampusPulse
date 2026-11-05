@@ -8,6 +8,20 @@
 
 CampusPulse is a modern, native Android application built using Kotlin and Material Design 3. It serves as a central platform for students to browse campus events, manage tickets, and stay updated with real-time notifications, featuring full offline data synchronization and dynamic multi-language localization.
 
+## 🚀 Release Notes & Prototype Updates
+
+Since the initial prototype release, **CampusPulse** has undergone major architecture improvements and feature additions:
+
+### 🌟 New & Innovative Features Added
+* **Dynamic Localization (Afrikaans & English)**: Added complete full-app bilingual switching within Settings without requiring an application restart.
+* **Offline Ticket Storage & Syncing**: Implemented localized Room/SQLite database caching so tickets remain fully accessible during network drops, with auto-synchronization when back online.
+* **Dark Mode Accessibility**: Integrated a system-matching and manual Dark Theme toggle (`Donker Tema`) to enhance legibility in low-light campus environments.
+
+### 🛠️ Key Technical Updates & Refinements
+* **MVVM Architecture**: Refactored event and ticket management state to use Kotlin `StateFlow` and structured view models.
+* **Security & Authentication**: Integrated secure Single Sign-On (SSO) and API request signing.
+* **Build Optimization**: Updated Gradle configuration for producing signed APK (`app-release.apk`) release builds.
+
 
 
 \---
