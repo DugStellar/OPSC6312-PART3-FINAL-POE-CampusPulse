@@ -90,3 +90,17 @@ CampusPulse is a modern, native Android application built using Kotlin and Mater
 
 &#x20;  git clone \[https://github.com/DugStellar/OPSC6312-PART3-FINAL-POE-CampusPulse.git](https://github.com/DugStellar/OPSC6312-PART3-FINAL-POE-CampusPulse.git)
 
+AI Tools Usage Statement
+
+During the development of CampusPulse, AI tools were used purely as a supportive coding assistant and debugging aid. All core app architecture, UI design, database logic, and final implementation remained entirely student-led.
+
+AI was selectively used for:
+
+Debugging & Build Support: Troubleshooting Gradle configuration issues and resolving Kotlin state management errors.
+
+Localization Assistance: Verifying accurate dynamic string translations for the Afrikaans language toggle.
+
+Documentation Formatting: Structuring clean Markdown tables in the README.md to showcase app screenshots side-by-side.
+
+All suggestions and code snippets provided by AI were manually reviewed, refactored, and thoroughly tested within Android Studio to ensure complete project ownership and compliance.
+
